@@ -13,7 +13,7 @@ install_requires = read_requirements()
 
 setup(
     name='gemini_json_agent',
-    version='0.0.1',
+    version='0.0.2',
     packages=find_packages(),
     description='Agent For Working With JSON Data Structure',
     author='Viacheslav Kovalevskyi',
