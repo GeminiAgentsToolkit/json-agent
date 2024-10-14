@@ -21,5 +21,4 @@ def create_agent(*, model_name="gemini-1.5-flash", debug=False, history_depth=1,
          debug=debug, 
          system_instruction=PROMPT, 
          add_scheduling_functions=False,
-         recreate_client_each_time=True,
          on_message=on_message)
